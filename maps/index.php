@@ -94,10 +94,6 @@ include_once("../php_scripts/_initialize.php");
 		<div class="panel panel-success" style="width: 100%;padding:0px;  margin-left:auto; margin-right:auto;">
 			<div class="panel panel-heading panel-success text-center"> GET DIRECTIONS</div>
 				<iframe style="width:100%; height:700px; margin-left:auto; margin-right:auto; border:0px;" src="https://www.google.com/maps/embed/v1/directions?key=ENTER_YOUR_MAP_KEY&origin=Your+Location&destination=<?php echo $destination; ?>&mode=driving&zoom=8"></iframe>
-				
-				
-				<!-- <iframe style="width:100%; height:700px; margin-left:auto; margin-right:auto; border:0px;" src="https://www.google.com/maps/embed/v1/directions?key=ENTER_YOUR_MAP_KEY&origin=Your+Location&destination=Benin+city&mode=driving"></iframe> -->
-				
 		</div>	
 		<?php		
 		}
